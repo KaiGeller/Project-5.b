@@ -16,10 +16,10 @@ class Taxicab:
        """This moves the cab along the y axis"""
        self.odometer += abs(move_y)
        self.y_coord += move_y
-    def get_x_cord(self):
+    def get_x_coord(self):
         """This gives current x coordinate of cab"""
         return self.x_coord
-    def get_y_cord(self):
+    def get_y_coord(self):
         """This gives current x coordinate of cab"""
         return self.y_coord
     def get_odometer(self):
