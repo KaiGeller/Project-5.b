@@ -2,7 +2,7 @@
 #GitHub Username: KaiGeller
 #4/27/2022
 # Assignment number 5b this is to keep track of the x and y coordinate of the taxi and the odometer
-class taxicab:
+class Taxicab:
     def __init__(self, x_cord, y_cord):
         """This defines the x and y coordinates of the cab and sets the odometer to 0"""
         self.x_cord = x_cord
