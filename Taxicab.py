@@ -5,8 +5,8 @@
 class Taxicab:
     def __init__(self, x_coord, y_coord):
         """This defines the x and y coordinates of the cab and sets the odometer to 0"""
-        self.x_cord = x_coord
-        self.y_cord = y_coord
+        self.x_coord = x_coord
+        self.y_coord = y_coord
         self.odometer = 0
     def move_x(self, move_x):
         """This moves the cab along the x axis"""
